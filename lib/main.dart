@@ -1,4 +1,5 @@
-import 'package:demo_app/Widgets/Sterpper/stepper.dart';
+import 'package:demo_app/Widgets/FittedBox/fitted_box_widget.dart';
+import 'package:demo_app/Widgets/Sterpper/stepper_dart.dart';
 import 'package:demo_app/view/spash_screen/screen.dart';
 import 'package:flutter/material.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
       title: 'Material App',
-      home: StepperWidget(),
+      home: FittedBoxWidget(),
     );
   }
 }
