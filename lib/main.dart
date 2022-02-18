@@ -1,4 +1,5 @@
 import 'package:demo_app/Widgets/FittedBox/fitted_box_widget.dart';
+import 'package:demo_app/Widgets/Hero/hero_widget.dart';
 import 'package:demo_app/Widgets/Sterpper/stepper_dart.dart';
 import 'package:demo_app/Widgets/adaptive/adaptive_widget.dart';
 import 'package:demo_app/Widgets/showSearch/show_search_widget.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
       title: 'Material App',
-      home: const AdaptiveWidget(),
+      home: const HeroWidget(),
     );
   }
 }
